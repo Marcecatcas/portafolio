@@ -1,5 +1,6 @@
 import './App.css';
 import Logo from "./img/logo.png";
+import MyCarousel from "./Components/Slider";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           informacion sobre mi, mis proyectos y de contacto.
         </p>
         <h3 className="FixedTools">Herramientas</h3>
-        {/* slider con herramientas */}
+        <MyCarousel />
       </aside>
     </div>
   );
