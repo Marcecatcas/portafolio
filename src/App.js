@@ -1,4 +1,5 @@
 import './App.css';
+import Logo from "./img/logo.png";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         </div>
       </header>
       <aside className="FixedInfo">
-        <img src="./logo.png" className="fixedLogo" alt=""/>
+        <img src={Logo} className="FixedLogo" alt=""/>
         <h2 className="FixedName">Marcela Catalán</h2>
         <h3 className="FixedDescription">Front-End Developer y Cientifica</h3>
         <p className="FixedWelcome">
