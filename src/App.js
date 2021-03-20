@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="FixedContent">
+      <header className="FixedHeader">
+        <div className="NavMenu">
+          <h3>PROYECTOS</h3>
+          <h3>SOBRE MI</h3>
+          <h3>CONTACTO</h3>
+        </div>
       </header>
+      <aside className="FixedInfo">
+        <img src="./logo.png" className="fixedLogo" alt=""/>
+        <h2 className="FixedName">Marcela Catalán</h2>
+        <h3 className="FixedDescription">Front-End Developer y Cientifica</h3>
+        <p className="FixedWelcome">
+          ¡Hola! bienvenido a mi pagina personal, aqui podras encontrar
+          informacion sobre mi, mis proyectos y de contacto.
+        </p>
+        <h3 className="FixedTools">Herramientas</h3>
+        {/* slider con herramientas */}
+      </aside>
     </div>
   );
 }
