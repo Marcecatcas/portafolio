@@ -7,6 +7,7 @@ function AboutMe() {
     return (
         <div className="content">
             <div className="leftContent">
+                <div className="descriptionContent">
         <h2 className="title">¡Hola!</h2>
         <p className="description">
             Soy una Ingeniero en Biotecnologia que por temas de pandemia y curiosidad comenzó a interiorizarse en el area tech.<br/> 
@@ -18,6 +19,7 @@ function AboutMe() {
             sobre todo de Data Science, Machine Learning e Inteligencia Artificial, temas que por los que nacio mi curiosidad 
             por la programación.
         </p>
+        </div>
         <div>
          <h2 className="title">APTITUDES</h2>
          <div className="Aptitud">

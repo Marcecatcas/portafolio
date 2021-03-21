@@ -2,9 +2,28 @@ import "./Contact.css"
 
 function Contact() {
     return (
-        <h1 className="title">
-            Hablame uwu
-        </h1>
+        <div>
+            <div>
+            <h2 className="title">
+            Contacto
+            </h2>
+            <div>
+                <img/>
+                <p></p>
+            </div>
+            <div>
+            <img/>
+                <p></p>
+            </div>
+            <div>
+            <img/>
+                <p></p>
+            </div>
+            </div>
+        <div>
+        <img/>
+        </div>
+        </div>
     );
 }
 
