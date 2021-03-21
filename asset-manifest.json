@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.4d00f036.chunk.css",
-    "main.js": "/portafolio/static/js/main.3520f575.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.3520f575.chunk.js.map",
+    "main.css": "/portafolio/static/css/main.5d69f636.chunk.css",
+    "main.js": "/portafolio/static/js/main.8c5aa11e.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.8c5aa11e.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.5088e3fb.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.5088e3fb.js.map",
     "static/css/2.15c72766.chunk.css": "/portafolio/static/css/2.15c72766.chunk.css",
@@ -12,20 +12,18 @@
     "static/js/3.29c562e9.chunk.js.map": "/portafolio/static/js/3.29c562e9.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.15c72766.chunk.css.map": "/portafolio/static/css/2.15c72766.chunk.css.map",
-    "static/css/main.4d00f036.chunk.css.map": "/portafolio/static/css/main.4d00f036.chunk.css.map",
+    "static/css/main.5d69f636.chunk.css.map": "/portafolio/static/css/main.5d69f636.chunk.css.map",
     "static/js/2.9b2fb493.chunk.js.LICENSE.txt": "/portafolio/static/js/2.9b2fb493.chunk.js.LICENSE.txt",
-    "static/media/css3.0c2690a2.webp": "/portafolio/static/media/css3.0c2690a2.webp",
-    "static/media/App.css": "/portafolio/static/media/fondo2.25e2cb61.svg",
-    "static/media/html5.cc0859f4.png": "/portafolio/static/media/html5.cc0859f4.png",
-    "static/media/logo.2153647a.png": "/portafolio/static/media/logo.2153647a.png",
-    "static/media/react.20adfb35.png": "/portafolio/static/media/react.20adfb35.png",
-    "static/media/trello.0d980286.png": "/portafolio/static/media/trello.0d980286.png"
+    "static/media/css3.7b8d6b1f.png": "/portafolio/static/media/css3.7b8d6b1f.png",
+    "static/media/App.css": "/portafolio/static/media/fondo.99ad22d8.svg",
+    "static/media/html5.81986845.png": "/portafolio/static/media/html5.81986845.png",
+    "static/media/logo.dbbe1d39.png": "/portafolio/static/media/logo.dbbe1d39.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5088e3fb.js",
     "static/css/2.15c72766.chunk.css",
     "static/js/2.9b2fb493.chunk.js",
-    "static/css/main.4d00f036.chunk.css",
-    "static/js/main.3520f575.chunk.js"
+    "static/css/main.5d69f636.chunk.css",
+    "static/js/main.8c5aa11e.chunk.js"
   ]
 }
