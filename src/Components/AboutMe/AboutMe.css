@@ -1,3 +1,60 @@
-.title{
-    color: #fff;
+.content{
+    display: flex;
 }
+
+.leftContent{
+   width: 30vw;
+   margin-right: 5vw;
+   text-align: justify;
+}
+
+.title{
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.description{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 2vh;
+}
+
+.MyPhoto{
+    height: 35vh;
+    border-radius: 100%;
+    margin-left: 3vw;
+}
+
+.Aptitud{
+    margin-left: 2.5vw;
+}
+
+.Skills{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1.5vh;
+    border-radius: 1vh;
+}
+
+.CVBtn{
+    background-color: black;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 1vh;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    border-color:#8768ff;
+    margin-left: 8vw;
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.CVBtn:hover{
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+    background-color:#8768ff;
+    color: white;
+}
+
