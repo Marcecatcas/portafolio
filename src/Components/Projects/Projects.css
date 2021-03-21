@@ -128,7 +128,10 @@ margin-bottom: 2vh;
 
 p{
     margin-left: 2vw;
-    margin-right:2vw;
+    margin-right: 2vw;
+    font-size: 2vh;
+    text-align: justify; 
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .leftbuttons{
@@ -163,6 +166,7 @@ p{
     border-color:#8768ff;
     margin-right: 3vw;
     font-size: 3vh;
+    font-weight: 1000;
 }
 
 .GitHubButton{
@@ -173,6 +177,7 @@ p{
     font-family: 'Titillium Web', sans-serif;
     border-color: #8768ff;
     font-size: 3vh;
+    font-weight: 1000;
 }
 
 .GitHubButton:hover{

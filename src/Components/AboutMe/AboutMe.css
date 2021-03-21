@@ -8,6 +8,12 @@
    text-align: justify;
 }
 
+.rightContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .title{
     color: white;
     font-family: 'Amaranth', sans-serif;
@@ -29,16 +35,31 @@
 }
 
 .Aptitud{
-    margin-left: 2.5vw;
+    display: flex;
+    justify-content: center;
+ 
 }
 
 .Skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 1.5vh;
     border-radius: 1vh;
+    width: 20vw;
+    height: 19vh;
+    margin-bottom:1vh;
+}
+
+.skillImage{
+    height: 18vh;
 }
 
 .CVBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     width: 10vw;
     height: 6vh;
@@ -46,9 +67,9 @@
     font-family: 'Titillium Web', sans-serif;
     font-weight: 900;
     border-color:#8768ff;
-    margin-left: 8vw;
     margin-top: 2vh;
     font-size: 3vh;
+    margin-left: 5vw;
 }
 
 .CVBtn:hover{

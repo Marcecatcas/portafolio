@@ -30,7 +30,7 @@ function AboutMe() {
         <div>
          <h2 className="title">CONOCIMIENTOS</h2>
          <div className = "Skills">
-             <img src={Conocimientos} alt=""/>
+             <img src={Conocimientos} className="skillImage" alt=""/>
              </div>
         </div>
         <button className="CVBtn"><a href="https://n9.cl/cv_personal">Mi CV</a></button>
