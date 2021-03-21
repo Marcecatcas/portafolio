@@ -6,36 +6,85 @@
   background-repeat: no-repeat;
   background-position: 0;
   background-size: cover;
-  background-attachment: fixed;
+ 
+  }
+
+  .Container{
+ background-attachment: fixed;
+  display: flex;
+
   }
   
   .NavMenu{
-    display: flex;
-    color:white;
-    justify-content: space-around;
-    align-items: flex-end;
-    height: 10vh;
-    margin-left:50vw;
-    margin-right: 10vw;
     font-family: Amaranth;
     font-size: 2.5vh;
+    padding: 15px 0;
+    text-decoration: none;
+     padding-left:3px;
+     padding-right:3px;
+     margin-left: 4vw;
   }
-  
+
+  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 40vw;
+
+  }
+
+  .projectBtn{
+    text-transform: uppercase;
+    margin-left: 8vw;
+  }
+
+  a{
+    text-decoration: none;
+    color:white;
+  }
+
+  .projectBtn:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+
+  .projectBtn:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #1ABCFE;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .projectBtn:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  .mainContent{
+    display: flex;
+  }
+
   .FixedInfo{
     width: 28vw;
     height: 80vh;
     background-color: white;
     margin-left: 5vw;
+    margin-right: 5vw;
     border-radius: 2%;
     box-shadow: -4px 4px 10px white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
   }
   
   .FixedLogo{
-    height: 200px;
-    width: 170px;
+    height: 28vh;
     margin-top: 5vh;
   }
   
@@ -45,7 +94,7 @@
     font-size: 3vh;
     margin-top: -2vh;
   }
-  
+
   .FixedDescription{
     font-family: 'Amaranth', sans-serif;
     margin-bottom: 1vh;
@@ -66,6 +115,9 @@
     margin-bottom: 1vh;
     font-size: 2.5vh;
   }
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

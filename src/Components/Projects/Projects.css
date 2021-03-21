@@ -1,0 +1,22 @@
+.projects{
+    height: 600px;
+    width: 60vw;
+    overflow-y:scroll;
+}
+.leftprojectContent{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.rightprojectContent{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+margin-right: 5vw;
+}
+.projectTitle{
+    color: white;
+    font-family: Amaranth;
+}
