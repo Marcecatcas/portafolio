@@ -1,8 +1,9 @@
 .projects{
-    height: 600px;
+    height: 80vh;
     width: 60vw;
-    overflow-y:scroll;
+    overflow-y:scroll;  
 }
+
 .leftprojectContent{
 display: flex;
 flex-direction: column;
@@ -20,3 +21,38 @@ margin-right: 5vw;
     color: white;
     font-family: Amaranth;
 }
+.mainproyectContent{
+    display: flex;
+}
+.projectDescription{
+    width: 40vw;
+    height: 10vh;
+    background-color: rgba(71, 62, 62, 0.5);;
+    border-radius: 1vh;
+    color:white;
+}
+
+.buttons{
+    display:flex;
+}
+
+.demoButton{
+    background-color: #8768ff;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 1vh;
+    font-family: 'Titillium Web', sans-serif;
+    border-color: white;
+    margin-right: 3vw;
+}
+
+.GitHubButton{
+    background-color: #5529c5;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 1vh;
+    font-family: 'Titillium Web', sans-serif;
+    border-color: white;
+}
+
+

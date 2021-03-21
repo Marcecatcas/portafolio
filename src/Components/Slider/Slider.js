@@ -3,7 +3,7 @@ import "./Slider.css"
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import HTML5 from "./SliderImages/html5.png"
-import Css from "./SliderImages/css3.webp"
+import Css from "./SliderImages/css3.png"
 import Js from "./SliderImages/js.png"
 import ReactIcon from "./SliderImages/react.png"
 import Trello from "./SliderImages/trello.png"

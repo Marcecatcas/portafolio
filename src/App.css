@@ -1,6 +1,6 @@
 
 .FixedContent {
-  background-image: url(./img/fondo2.svg);
+  background-image: url(./img/fondo.svg);
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -23,11 +23,10 @@
      padding-left:3px;
      padding-right:3px;
      margin-left: 4vw;
+     width: 40vw;
      display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 40vw;
-
+     justify-content: space-between;
+     list-style-type: none;
   }
 
   .projectBtn{
@@ -52,7 +51,7 @@
     display: block;
     height: 2px;
     left: 50%;
-    background: #1ABCFE;
+    background: #8768ff;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
