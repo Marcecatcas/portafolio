@@ -13,14 +13,16 @@ function App() {
       <div className="Container">
       <aside className="FixedInfo">
         <img src={Logo} className="FixedLogo" alt="" />
+        <div className="div">
         <h2 className="FixedName">Marcela Catalán</h2>
         <h3 className="FixedDescription">Front-End Developer y Cientifica</h3>
         <p className="FixedWelcome">
-          ¡Hola! bienvenido a mi pagina personal, aqui podras encontrar
-          informacion sobre mi, mis proyectos y de contacto.
+          ¡Hola! bienvenida a mi portafolio, aqui podras encontrar
+          informacion de mi, de mis proyectos y de contacto.
         </p>
         <h3 className="FixedTools">Herramientas</h3>
-        <MyCarousel />
+        <MyCarousel/>
+        </div>
       </aside>
       <div className="FixedContainer">
     <Router>

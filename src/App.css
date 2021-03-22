@@ -1,4 +1,7 @@
-
+* {
+  padding: 0px;
+  margin: 0px;
+}
 .FixedContent {
   background-image: url(./img/fondo.svg);
   width: 100vw;
@@ -6,14 +9,19 @@
   background-repeat: no-repeat;
   background-position: 0;
   background-size: cover;
- 
   }
 
-  .Container{
- background-attachment: fixed;
+.Container{
   display: flex;
-
   }
+
+.div{
+  display: flex;
+flex-direction: column;
+width: 28vw;
+height: 80vh;
+align-items: center;
+}
   
   .NavMenu{
     font-family: Amaranth;
@@ -23,9 +31,7 @@
      padding-left:3px;
      padding-right:3px;
      margin-left: 4vw;
-     width: 40vw;
      display: flex;
-     justify-content: space-between;
      list-style-type: none;
   }
 
@@ -104,6 +110,7 @@
     margin-left: 1.5vw;
     display: flex;
     justify-content: center;
+    text-align: center;
   }
   
   .FixedTools{
@@ -114,32 +121,90 @@
 
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait){
+    .FixedContent {
+    background-image: url(./img/fondo4.svg);
+    width: 116.3vw;
+    height: 116.3vh;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    background-attachment: relative;
+    }
+  .Container{
+    display: flex;
+    flex-direction: column;
+    }
+  .NavMenu{
+    font-family: Amaranth;
+    font-size: 3vh;
+    padding: 15px 0;
+    text-decoration: none;
+     padding-left:3px;
+     padding-right:3px;
+     margin-left: 5vw;
+     bottom: -75vh;
+     position: relative;
+     list-style-type: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .FixedInfo{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    box-shadow: none;
+    margin-left: -7vw;
+    border-radius: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .FixedLogo{
+    height: 15vh;
+    position: relative;
+    top: -12vh;
+    left:90vw;
   }
-}
+  .div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 32vh;
+  }
+
+  .FixedName{
+    font-family: 'Amaranth', sans-serif;
+    margin-bottom: 1vh;
+    font-size: 3vh;
+    margin-top: -2vh;
+    color:white;
+    position: relative;
+    width:50vw;
+  }
+
+  .FixedDescription{
+    font-family: 'Amaranth', sans-serif;
+    margin-bottom: 1vh;
+    font-size: 2.5vh;
+    margin-top: -0.3vh;
+    position: relative;
+    left: -10vw;
+    color:white;
+  }
+  
+  .FixedWelcome{
+    display:none;
+  }
+  
+  .FixedTools{
+    font-family: 'Amaranth', sans-serif;
+    margin-bottom: 1vh;
+    font-size: 2.5vh;
+    position: relative;
+    left:-45vw;
+  }
+  }
+
