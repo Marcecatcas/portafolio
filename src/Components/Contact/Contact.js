@@ -8,7 +8,7 @@ function Contact() {
     <div className="Content">
       <div className="titleContent">
         <h2 className="title">Contacto</h2>
-        <p>Si tienes dudas o cualquier inquietud no dudes en contactarme por las siguientes vias:</p>
+        <p className="contactDescription">Si tienes dudas o cualquier inquietud no dudes en contactarme por las siguientes vias:</p>
         <div className="emailContent">
           <img src={Email} className="emailIcon" alt="" />
           <p className="descriptionContact">marce.catalan.castelli@gmail.com</p>
