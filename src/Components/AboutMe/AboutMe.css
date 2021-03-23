@@ -221,6 +221,13 @@
         height: 15vh;
     }
     
+    .description{
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+        font-size: 2vh;
+        margin-top:-0.5vh;
+        width: 85vw;
+    }
 }   
 
 
