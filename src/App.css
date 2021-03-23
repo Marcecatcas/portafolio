@@ -8,7 +8,7 @@
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 0;
   background-size: cover;
   }
 
@@ -164,7 +164,7 @@ align-items: center;
   .FixedLogo{
     height: 15vh;
     position: relative;
-    top: -12vh;
+    top: -13vh;
     left:55vw;
   }
   
@@ -185,8 +185,8 @@ align-items: center;
     margin-top: 6vh;
     color:white;
     position: relative;
-    width:38vw;
-    margin-left: 5vw;
+    width:45vw;
+    margin-left: 10vw;
   }
 
   .FixedDescription{
@@ -214,6 +214,8 @@ align-items: center;
   }
 
   .projectBtn{
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
   }
 
@@ -223,8 +225,7 @@ align-items: center;
   }
 
   .projectBtn:hover{
-    cursor: pointer;
-    text-shadow:none;
+    display: none;
   }
 
   .projectBtn:after {    

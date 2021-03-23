@@ -72,7 +72,7 @@ margin-bottom: 2vh;
 .projectDescription{
     width: 35vw;
     height: 35vh;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 1vh;
     color:white;
     display: flex;
@@ -80,12 +80,12 @@ margin-bottom: 2vh;
     align-items: center;
     margin-left: -4vw;
     
-}
+} 
 
 .onuProjectDescription{
     width: 35vw;
     height: 35vh;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 1vh;
     color:white;
     display: flex;
@@ -97,7 +97,7 @@ margin-bottom: 2vh;
 .sushiProjectDescription{
     width: 35vw;
     height: 35vh;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 1vh;
     color:white;
     display: flex;
@@ -109,7 +109,7 @@ margin-bottom: 2vh;
 .dataProjectDescription{
     width: 35vw;
     height: 35vh;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(53, 53, 53, 0.25);
     border-radius: 1vh;
     color:white;
     display: flex;
@@ -121,7 +121,7 @@ margin-bottom: 2vh;
 .beautyProjectDescription{
     width: 35vw;
     height: 35vh;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(53, 53, 53, 0.25);
     border-radius: 1vh;
     color:white;
     display: flex;
@@ -203,6 +203,7 @@ margin-bottom: 2vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: -2vh;
         }
         .rightprojectContent{
         display: flex;
@@ -210,6 +211,7 @@ margin-bottom: 2vh;
         justify-content: flex-end;
         align-items: flex-end;
         margin-right: 5vw;
+        margin-top: -10vh;
         }
 
         .mainproyectContent{
@@ -219,15 +221,17 @@ margin-bottom: 2vh;
         }
         /* card validation */
         .cardProjectImage{
-            height: 35vh;
+            height: 25vh;
+            width: 80vw;
             position: relative;
             right: -8vw;
-            left: 1vw;
+            left: 9vw;
+            top: 6vh;
         }
         .projectDescription{
             width: 90vw;
             height: 25vh;
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(53, 53, 53, 0.5);
             border-radius: 1vh;
             color:white;
             display: flex;
@@ -239,15 +243,17 @@ margin-bottom: 2vh;
 
         /* data lovers */
         .dataProjectImage{
+            width: 80vw;
             height: 25vh;
             position: relative;
-            right: -5vw;
-            top: -3vh;
+            right: -18vw;
+            top: 4vh;
+            margin-top: 3vh;
         }
         .dataProjectDescription{
             width: 90vw;
             height: 28vh;
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(53, 53, 53, 0.5);
             border-radius: 1vh;
             color:white;
             display: flex;
@@ -263,12 +269,12 @@ margin-bottom: 2vh;
             position: relative;
             right: -20vw;
             left: 15vw;
-            top:-3vh;
+            top:2vh;
         }
         .onuProjectDescription{
             width: 90vw;
             height: 35vh;
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(53, 53, 53, 0.5);
             border-radius: 1vh;
             color:white;
             display: flex;
@@ -279,15 +285,18 @@ margin-bottom: 2vh;
         }
         /* social network */
         .beautyProjectImage{
-            height: 40vh;
+            height: 35vh;
+            width: 80vw;
             position: relative;
-            right: -6vw;
+            right: -15vw;
+            top:6vh;
+            margin-top: -2vh;
         }
 
         .beautyProjectDescription{
             width: 90vw;
             height: 30vh;
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(53, 53, 53, 0.5);
             border-radius: 1vh;
             color:white;
             display: flex;
@@ -299,18 +308,18 @@ margin-bottom: 2vh;
 
         /* sushi Queen */
         .sushiProjectImage{
-            height: 38vh;
-            width: 50vw;
+            height: 30vh;
+            width: 42vw;
             position: relative;
             right: -8vw;
-            left: 20vw;
-            top: -1.2vh;
+            left: 25vw;
+            top: 2vh;
         }
         
         .sushiProjectDescription{
             width: 90vw;
             height: 30vh;
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(53, 53, 53, 0.5);
             border-radius: 1vh;
             color:white;
             display: flex;
