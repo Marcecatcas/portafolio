@@ -11,15 +11,15 @@ function Contact() {
         <p className="contactDescription">Si tienes dudas o cualquier inquietud no dudes en contactarme por las siguientes vias:</p>
         <div className="emailContent">
           <img src={Email} className="emailIcon" alt="" />
-          <p className="descriptionContact">marce.catalan.castelli@gmail.com</p>
+          <p >marce.catalan.castelli@gmail.com</p>
         </div>
         <div className="linkedinContent">
           <img src={linkedin} className="linkedinIcon" alt="" />
-          <p className="descriptionContact">www.linkedin.com/in/marcela-catalan-castelli</p>
+          <p >www.linkedin.com/in/marcela-catalan-castelli</p>
         </div>
         <div className="githubContent">
           <img src={github} className="githubIcon" alt="" />
-          <p className="descriptionContact">https://github.com/Marcecatcas</p>
+          <p>https://github.com/Marcecatcas</p>
         </div>
       </div>
     </div>
