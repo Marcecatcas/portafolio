@@ -214,8 +214,6 @@ align-items: center;
   }
 
   .projectBtn{
-    display: flex;
-    justify-content: center;
     text-transform: uppercase;
   }
 
@@ -225,7 +223,8 @@ align-items: center;
   }
 
   .projectBtn:hover{
-    display: none;
+    cursor: pointer;
+    text-shadow:none;
   }
 
   .projectBtn:after {    
