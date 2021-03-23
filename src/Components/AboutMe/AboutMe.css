@@ -20,6 +20,26 @@
     display: flex;
     justify-content: center;
     font-size: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.Title{
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 2.5vh;
+    margin-top: 2vh; 
+    margin-bottom: 3vh;
+    margin-left: 13vw;
+}
+
+.TitleSkills{
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 8vw;
 }
 
 .descriptionContent{
@@ -30,6 +50,7 @@
     width: 30vw;
     height: 51vh;
     border-radius: 2vh;
+    margin-top: 3vh;
 }
 
 .description{
@@ -48,7 +69,6 @@
 .Aptitud{
     display: flex;
     justify-content: center;
- 
 }
 
 .Skills{
@@ -60,11 +80,12 @@
     border-radius: 1vh;
     width: 20vw;
     height: 19vh;
+    margin-left: 1vw;
     margin-bottom:1vh;
 }
 
 .skillImage{
-    height: 18vh;
+    height: 17vh;
 }
 
 .CVBtn{
@@ -80,7 +101,7 @@
     border-color:#8768ff;
     margin-top: 2vh;
     font-size: 3vh;
-    margin-left: 5vw;
+    margin-left: 6.5vw;
 }
 
 .CVBtn:hover{
