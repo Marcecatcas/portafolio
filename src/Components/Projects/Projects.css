@@ -193,7 +193,7 @@ p{
 @media screen and (min-width: 320px) and (max-width: 450px) and (orientation: portrait){
     .projects{
         margin-top: 10vh;
-        height: 45vh;
+        height: 42vh;
         width: 95vw;
         overflow-y:scroll;
     }

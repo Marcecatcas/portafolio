@@ -21,7 +21,7 @@ function AboutMe() {
         </p>
         </div>
         <div>
-         <h2 className="title">APTITUDES</h2>
+         <h2 className="Title">Aptitudes</h2>
          <div className="Aptitud">
              <img src={Aptitudes} alt=""/>
              </div>
@@ -30,7 +30,7 @@ function AboutMe() {
         <div>
         <img src={MyPhoto} className="MyPhoto" alt=""/>
         <div>
-         <h2 className="title">CONOCIMIENTOS</h2>
+         <h2 className="TitleSkills">Conocimientos</h2>
          <div className = "Skills">
              <img src={Conocimientos} className="skillImage" alt=""/>
              </div>

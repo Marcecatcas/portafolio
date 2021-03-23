@@ -90,3 +90,116 @@
     color: white;
 }
 
+@media screen and (min-width: 320px) and (max-width: 450px) and (orientation: portrait){
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 40vh;
+        overflow-y: scroll;
+        margin-top: 10vh;
+    }
+
+    .descriptionContent{
+        background-color: rgba(255, 255, 255, 0.2);
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        height: 55vh;
+        margin-top:18vh;
+    }
+    .title{
+        color: white;
+        font-family: 'Amaranth', sans-serif;
+        display: flex;
+        justify-content: center;
+        font-size: 2.5vh;
+        margin-bottom: 1vh;
+    }
+
+    .Title{
+        color: white;
+        font-family: 'Amaranth', sans-serif;
+        font-size: 2.5vh;
+        margin-top: 2vh; 
+        margin-left: 37.5vw;
+        margin-bottom: 2vh;
+    }
+
+    .TitleSkills{
+        color: white;
+        font-family: 'Amaranth', sans-serif;
+        font-size: 2.5vh;
+        margin-top: -17vh; 
+        margin-left: 33vw;
+        margin-bottom: 2vh;
+    }
+
+    .Aptitud{
+        position: relative;
+        width: 50vw;
+        height: 15vh;
+        left:20vw;
+    }
+    .MyPhoto{
+        height: 20vh;
+        border-radius: 100%;
+        margin-left: 3vw;
+        position: relative;
+        top: -95vh;
+        left: 10vw;
+
+    }
+    .CVBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: 30vw;
+        height: 6vh;
+        border-radius: 1vh;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 900;
+        border-color:#8768ff;
+        margin-top: -135vh;
+        font-size: 3vh;
+        margin-left: 55vw;
+    }
+    
+    .CVBtn:hover{
+        box-shadow: 0px 0px 10px white;
+        cursor: pointer;
+        background-color:#8768ff;
+        color: white;
+    }
+
+    .Title{
+        color: white;
+        font-family: 'Amaranth', sans-serif;
+        font-size: 2.5vh;
+        margin-top: 2vh; 
+        margin-left: 37.5vw;
+        margin-bottom: 2vh;
+    }
+
+    .Skills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 1.5vh;
+        border-radius: 1vh;
+        width: 60vw;
+        height: 15vh;
+        margin-bottom:1vh;
+        margin-left: 12vw;
+    }
+    
+    .skillImage{
+        height: 15vh;
+    }
+    
+}   
+
+
+
