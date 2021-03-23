@@ -20,7 +20,8 @@
     color: #fff;
 }
 
-.contactDescription{color: white;
+.contactDescription{
+    color: white;
     font-size: 3vh;
     margin-bottom: 2vh;
 }
