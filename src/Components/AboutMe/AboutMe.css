@@ -24,13 +24,20 @@
     margin-bottom: 3vh;
 }
 
+.TitleContanier{
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
 .Title{
     color: white;
     font-family: 'Amaranth', sans-serif;
     font-size: 2.5vh;
     margin-top: 2vh; 
     margin-bottom: 3vh;
-    margin-left: 13vw;
+    margin-left: 5vw;
+    margin-right: 9vw;
 }
 
 .TitleSkills{
@@ -46,7 +53,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(92, 92, 92, 0.3);
     width: 35vw;
     height: 51vh;
     border-radius: 2vh;
@@ -72,11 +79,12 @@
     justify-content: center;
 }
 
+
 .Skills{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(92, 92, 92, 0.3);
     padding: 1.5vh;
     border-radius: 1vh;
     width: 20vw;
@@ -144,8 +152,15 @@
         font-family: 'Amaranth', sans-serif;
         font-size: 2.5vh;
         margin-top: 2vh; 
-        margin-left: 37.5vw;
+        margin-left: 15vw;
         margin-bottom: 2vh;
+        margin-right: -10vw;
+    }
+
+    .TitleContanier{
+        display: flex;
+        justify-content: center;
+        width: 45vw;
     }
 
     .TitleSkills{
@@ -162,6 +177,10 @@
         width: 50vw;
         height: 15vh;
         left:20vw;
+    }
+
+    .AptitudImage{
+    height: 10vh;
     }
     .MyPhoto{
         height: 20vh;

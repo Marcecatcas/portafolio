@@ -10,20 +10,17 @@ function AboutMe() {
                 <div className="descriptionContent">
         <h2 className="title">¡Hola!</h2>
         <p className="description">
-            Soy una Ingeniero en Biotecnologia que por temas de pandemia y curiosidad comenzó a interiorizarse en el area tech.<br/> 
-            Asi fue como llegue al BootCamp de Laboratoria despues de quedar desempleada (como muchos), 
-            me lance al mundo de la programación para cambiar mi rumbo y agregarle un plus a mi carrera de base.<br/>
-            Me considero una persona super comprometida y determinada, trato de aplicar a mi aprendizaje como FED tambien mi 
-            formación cientifica tanto en la ejecución como en creación de proyectos.<br/>
-            Me gusta mucho el anime (otaku veterana), tejer y dibujar. Me gustaria seguir aprendiendo mas de la programación 
-            sobre todo de Data Science, Machine Learning e Inteligencia Artificial, temas que por los que nacio mi curiosidad 
-            por la programación.
+            Soy una Cientifica que descubrio su pasion por la programación. Siempre trato de aplicar a mi amor por el codigo y la ciencia en todo lo que hago!<br/>
+            Me gusta mucho el anime (otaku veterana), tejer y dibujar. Alguna vez toque violin y cante opera.<br/>   
         </p>
+        <div>
+            <img src="" alt=""/>
+        </div>
         </div>
         <div>
-         <h2 className="Title">Aptitudes</h2>
+        <div className="TitleContanier"> <h2 className="Title">Aptitudes</h2><h2 className="Title">Intereses</h2></div>
          <div className="Aptitud">
-             <img src={Aptitudes} alt=""/>
+             <img src={Aptitudes} className="AptitudImage" alt=""/>
              </div>
         </div>
         </div>
