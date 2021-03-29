@@ -28,7 +28,7 @@ function Contact() {
         </div>
         <div className="appTalentContent">
           <img src={laboratoria} className="TalentIcon" alt="" />
-          <p onClick={() => {openLink('https://github.com/Marcecatcas')}}>App Talento Laboratoria</p>
+          <p onClick={() => {openLink('https://app.talento.laboratoria.la/profile/ydrOvokgLeMxYFrN9fcwTstjKFu2')}}>App Talento Laboratoria</p>
         </div>
       </div>
     </div>
