@@ -15,7 +15,7 @@ function App() {
         <img src={Logo} className="FixedLogo" alt="" />
         <div className="div">
         <h2 className="FixedName">Marcela Catalán</h2>
-        <h3 className="FixedDescription">Front-End Developer y Cientifica</h3>
+        <h3 className="FixedDescription">Front-End Developer y Científica</h3>
         <p className="FixedWelcome">
           ¡Hola! bienvenida a mi portafolio, aqui podras encontrar
           informacion de mi, de mis proyectos y de contacto.

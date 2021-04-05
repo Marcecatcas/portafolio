@@ -13,22 +13,22 @@ function Contact() {
     <div className="Content">
       <div className="titleContent">
         <h2 className="title">Contacto</h2>
-        <p className="contactDescription">Si tienes dudas o cualquier inquietud no dudes en contactarme por las siguientes vias:</p>
+        <p className="contactDescription">Si tienes dudas o cualquier inquietud, ¡Contáctame!:</p>
         <div className="emailContent">
           <img src={Email} className="emailIcon" alt="" />
-          <a href="mailto:marce.catalan.castelli@gmail.com"><p>marce.catalan.castelli@gmail.com</p></a>
+          <a href="mailto:marce.catalan.castelli@gmail.com"><p className="contactDescription">marce.catalan.castelli@gmail.com</p></a>
         </div>
         <div className="linkedinContent">
           <img src={linkedin} className="linkedinIcon" alt="" />
-          <p onClick={() => {openLink('www.linkedin.com/in/marcela-catalan-castelli')}}>www.linkedin.com/in/marcela-catalan-castelli</p>
+          <p className="contactDescription" onClick={() => {openLink('www.linkedin.com/in/marcela-catalan-castelli')}}>www.linkedin.com/in/marcela-catalan-castelli</p>
         </div>
         <div className="githubContent">
           <img src={github} className="githubIcon" alt="" />
-          <p onClick={() => {openLink('https://github.com/Marcecatcas')}}>https://github.com/Marcecatcas</p>
+          <p className="contactDescription" onClick={() => {openLink('https://github.com/Marcecatcas')}}>https://github.com/Marcecatcas</p>
         </div>
         <div className="appTalentContent">
           <img src={laboratoria} className="TalentIcon" alt="" />
-          <p onClick={() => {openLink('https://app.talento.laboratoria.la/profile/ydrOvokgLeMxYFrN9fcwTstjKFu2')}}>App Talento Laboratoria</p>
+          <p className="contactDescription" onClick={() => {openLink('https://app.talento.laboratoria.la/profile/ydrOvokgLeMxYFrN9fcwTstjKFu2')}}>App Talento Laboratoria</p>
         </div>
       </div>
     </div>

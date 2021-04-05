@@ -14,12 +14,12 @@ function AboutMe() {
         <div className="descriptionContent">
           <h2 className="title">¡Hola!</h2>
           <p className="description">
-            Soy una Cientifica que descubrio su pasion por la programación.
-            Siempre trato de aplicar a mi amor por el codigo y la ciencia en
-            todo lo que hago!
+            Soy una Científica que descubrió su pasión por la programación.
+            Siempre trato de aplicar mi amor por el código y la ciencia en
+            todo lo que hago.
             <br />
             Me gusta mucho el anime (otaku veterana), tejer y dibujar. Alguna
-            vez toque violin y cante opera.
+            vez toqué violín y canté opera.
             <br />
             Actividades:
             <br />

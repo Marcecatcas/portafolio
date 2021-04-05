@@ -21,56 +21,66 @@
 }
 
 .contactDescription{
+    cursor: pointer;
     color: white;
     font-size: 3vh;
+    margin-left: 5vw;
     margin-bottom: 2vh;
     font-family: 'Titillium Web', sans-serif;
     width: 40vw;
 }
 
+.contactDescription:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 0px white;
+}
+
 .emailContent{
 display: flex;
-margin-right: 7vw;
+margin-left: 12vw;
 margin-bottom: 1vh;
 }
 
 .emailIcon{
     height: 8vh;
-    margin-right: 1vw;
-    
+    margin-right: -3vw;  
 }
 
 .emailIcon:hover{
+    cursor: pointer;
     box-shadow: 0px 0px 10px white;
     border-radius:100%;
 }
 
 .linkedinContent{
     display: flex;
+    margin-left: 12vw;
     margin-bottom: 1vh;
     }
 
 .linkedinIcon{
     height:  8vh;
-    margin-right: 1vw;
+    margin-right: -3vw;
 }
 
 .linkedinIcon:hover{
+    cursor: pointer;
     box-shadow: 0px 0px 10px white;
     border-radius:100%;
 }
 
 .githubContent{
     display: flex;
-    margin-right: 8vw;
+    margin-left: 12vw;
     }
 
 .githubIcon{
     height: 8vh;
-    margin-right: 1vw;
+    margin-right: -3vw;
 }
 
 .githubIcon:hover{
+    cursor: pointer;
     box-shadow: 0px 0px 10px white;
     border-radius:100%;
 }
@@ -78,29 +88,25 @@ margin-bottom: 1vh;
 .appTalentContent{
     display: flex;
     margin-bottom: 1vh;
-    margin-right: 12.5vw;
     margin-top: 1vh;
+    margin-left: 12vw;
 }
 
 
 .TalentIcon{
     height:  8vh;
-    margin-right: 1vw;
+    margin-right: -3vw;
 }
 
 .TalentIcon:hover{
+    cursor: pointer;
     box-shadow: 0px 0px 10px white;
     border-radius:100%;
 }
 
 
-p{
-    color: white;
-    font-size: 3vh;
-    font-family: 'Titillium Web', sans-serif;
-}
-
 .descriptionContact:hover{
+    cursor: pointer;
     text-shadow: 0px 0px 10px white;
 }
 
