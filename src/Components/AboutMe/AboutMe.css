@@ -24,7 +24,7 @@
     margin-bottom: 3vh;
 }
 
-.TitleContanier{
+.TitleContainer{
     display: flex;
     justify-content: center;
     margin-left: 5vw;
@@ -66,6 +66,33 @@
     font-size: 2vh;
     margin-top:-0.5vh;
     width: 26vw;
+    margin-bottom: 3vh;
+}
+
+.imagesContainer{
+    display: flex;
+}
+
+.imagescontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 7vw;
+    margin-left: 1vw;
+}
+
+.descriptionImages{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 2vh;
+    margin-bottom: 3vh;
+    margin-left: 1.9vw;
+    margin-top: 1vh;
+}
+
+.PersonalImages{
+    height: 14vh;
+    border-radius: 100%;
 }
 
 .MyPhoto{
@@ -157,10 +184,38 @@
         margin-right: -10vw;
     }
 
-    .TitleContanier{
+    .TitleContainer{
         display: flex;
         justify-content: center;
         width: 45vw;
+        justify-content: center;
+        margin-left: 1vw;
+    }
+
+    .imagesContainer{
+        display: flex;
+    }
+    
+    .imagescontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20vw;
+        margin-left: 1vw;
+    }
+    
+    .descriptionImages{
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+        font-size: 2vh;
+        margin-bottom: 3vh;
+        margin-left: 3.5 vw;
+        margin-top: 1vh;
+    }
+    
+    .PersonalImages{
+        height: 12vh;
+        border-radius: 100%;
     }
 
     .TitleSkills{
@@ -180,8 +235,10 @@
     }
 
     .AptitudImage{
-    height: 10vh;
+        height: 10vh;
+        left: -18vw;
     }
+
     .MyPhoto{
         height: 20vh;
         border-radius: 100%;
@@ -248,6 +305,7 @@
         width: 85vw;
     }
 }   
+
 
 
 
