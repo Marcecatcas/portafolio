@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.1d63c117.chunk.css",
-    "main.js": "/portafolio/static/js/main.1e1d697d.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.1e1d697d.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.200ff350.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.200ff350.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.5088e3fb.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.5088e3fb.js.map",
     "static/css/2.434fccbd.chunk.css": "/portafolio/static/css/2.434fccbd.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.1d63c117.chunk.css.map": "/portafolio/static/css/main.1d63c117.chunk.css.map",
     "static/js/2.9b2fb493.chunk.js.LICENSE.txt": "/portafolio/static/js/2.9b2fb493.chunk.js.LICENSE.txt",
     "static/media/Ciencia.e6852d7c.png": "/portafolio/static/media/Ciencia.e6852d7c.png",
-    "static/media/Conocimientos.2feb2a68.svg": "/portafolio/static/media/Conocimientos.2feb2a68.svg",
+    "static/media/Conocimientos.33e33c84.svg": "/portafolio/static/media/Conocimientos.33e33c84.svg",
     "static/media/Dibujo.ef5eaf85.png": "/portafolio/static/media/Dibujo.ef5eaf85.png",
     "static/media/Laboratoria.da748270.png": "/portafolio/static/media/Laboratoria.da748270.png",
     "static/media/Mascotas.2fe3aeaf.png": "/portafolio/static/media/Mascotas.2fe3aeaf.png",
@@ -41,6 +41,6 @@
     "static/css/2.434fccbd.chunk.css",
     "static/js/2.9b2fb493.chunk.js",
     "static/css/main.1d63c117.chunk.css",
-    "static/js/main.1e1d697d.chunk.js"
+    "static/js/main.200ff350.chunk.js"
   ]
 }
