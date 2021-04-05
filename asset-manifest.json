@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.a27b5578.chunk.css",
-    "main.js": "/portafolio/static/js/main.891e4897.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.891e4897.chunk.js.map",
+    "main.css": "/portafolio/static/css/main.e6f12139.chunk.css",
+    "main.js": "/portafolio/static/js/main.41ced7f1.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.41ced7f1.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.5088e3fb.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.5088e3fb.js.map",
     "static/css/2.434fccbd.chunk.css": "/portafolio/static/css/2.434fccbd.chunk.css",
@@ -12,20 +12,16 @@
     "static/js/3.29c562e9.chunk.js.map": "/portafolio/static/js/3.29c562e9.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.434fccbd.chunk.css.map": "/portafolio/static/css/2.434fccbd.chunk.css.map",
-    "static/css/main.a27b5578.chunk.css.map": "/portafolio/static/css/main.a27b5578.chunk.css.map",
+    "static/css/main.e6f12139.chunk.css.map": "/portafolio/static/css/main.e6f12139.chunk.css.map",
     "static/js/2.9b2fb493.chunk.js.LICENSE.txt": "/portafolio/static/js/2.9b2fb493.chunk.js.LICENSE.txt",
     "static/media/Aptitudes.799f00e7.svg": "/portafolio/static/media/Aptitudes.799f00e7.svg",
-    "static/media/Ciencia.e6852d7c.png": "/portafolio/static/media/Ciencia.e6852d7c.png",
     "static/media/Conocimientos.2feb2a68.svg": "/portafolio/static/media/Conocimientos.2feb2a68.svg",
-    "static/media/Dibujo.ef5eaf85.png": "/portafolio/static/media/Dibujo.ef5eaf85.png",
     "static/media/Laboratoria.da748270.png": "/portafolio/static/media/Laboratoria.da748270.png",
-    "static/media/Mascotas.2fe3aeaf.png": "/portafolio/static/media/Mascotas.2fe3aeaf.png",
     "static/media/MyFoto.d5e5e6a4.jpg": "/portafolio/static/media/MyFoto.d5e5e6a4.jpg",
     "static/media/Slider1.2cfa44a8.png": "/portafolio/static/media/Slider1.2cfa44a8.png",
     "static/media/Slider2.dc722e6b.png": "/portafolio/static/media/Slider2.dc722e6b.png",
     "static/media/Slider3.ed0303ba.png": "/portafolio/static/media/Slider3.ed0303ba.png",
     "static/media/Slider4.49c98f83.png": "/portafolio/static/media/Slider4.49c98f83.png",
-    "static/media/Tejido.2e970cb1.png": "/portafolio/static/media/Tejido.2e970cb1.png",
     "static/media/beautyTips.5f163f5b.png": "/portafolio/static/media/beautyTips.5f163f5b.png",
     "static/media/cardValidation.69332516.png": "/portafolio/static/media/cardValidation.69332516.png",
     "static/media/correo.7fa6b33e.png": "/portafolio/static/media/correo.7fa6b33e.png",
@@ -40,7 +36,7 @@
     "static/js/runtime-main.5088e3fb.js",
     "static/css/2.434fccbd.chunk.css",
     "static/js/2.9b2fb493.chunk.js",
-    "static/css/main.a27b5578.chunk.css",
-    "static/js/main.891e4897.chunk.js"
+    "static/css/main.e6f12139.chunk.css",
+    "static/js/main.41ced7f1.chunk.js"
   ]
 }
