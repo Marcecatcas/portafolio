@@ -20,7 +20,7 @@ function Contact() {
         </div>
         <div className="linkedinContent">
           <img src={linkedin} className="linkedinIcon" alt="" />
-          <p className="contactDescription" onClick={() => {openLink('www.linkedin.com/in/marcela-catalan-castelli')}}>www.linkedin.com/in/marcela-catalan-castelli</p>
+          <p className="contactDescriptionLinkedin" onClick={() => {openLink('www.linkedin.com/in/marcela-catalan-castelli')}}>www.linkedin.com/in/marcela-catalan-castelli</p>
         </div>
         <div className="githubContent">
           <img src={github} className="githubIcon" alt="" />
