@@ -1,6 +1,6 @@
 import "./AboutMe.css";
 import MyPhoto from "./AboutMeImages/MyFoto.jpg";
-import Aptitudes from "./AboutMeImages/Aptitudes.svg";
+import Aptitudes from "./AboutMeImages/aptitudes.png";
 import Conocimientos from "./AboutMeImages/Conocimientos.svg";
 import Ciencia from "./AboutMeImages/Ciencia.png";
 import Dibujo from "./AboutMeImages/Dibujo.png";
@@ -49,7 +49,7 @@ function AboutMe() {
             <h2 className="Title">Intereses</h2>
           </div>
           <div className="Aptitud">
-            <img src={Aptitudes} className="AptitudImage" alt="" />
+            <img src={Aptitudes} className="AptitudImage" alt="hola" />
           </div>
         </div>
       </div>

@@ -106,6 +106,9 @@
     justify-content: center;
 }
 
+.AptitudImage{
+    height: 15vh;
+}
 
 .Skills{
     display: flex;
@@ -236,7 +239,6 @@
 
     .AptitudImage{
         height: 10vh;
-        left: -18vw;
     }
 
     .MyPhoto{
